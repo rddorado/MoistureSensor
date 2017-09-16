@@ -1,0 +1,1 @@
+curl -X PATCH -d '{"status": "dry"}' 'https://msensor-6a4b5.firebaseio.com/moisture.json?auth=71j37JA303KY2zoxlSJ1jdK06oVmM8QTISbLC31e'
