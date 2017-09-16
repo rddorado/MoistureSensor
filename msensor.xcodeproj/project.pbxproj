@@ -123,12 +123,12 @@
 		D16E48D51F6C153300D7C962 = {
 			isa = PBXGroup;
 			children = (
+				51393EE51B8BD40FCD2B19B0 /* Frameworks */,
+				47B312A2888AAD64F465D219 /* Pods */,
+				D16E48DF1F6C153300D7C962 /* Products */,
 				D16E48E01F6C153300D7C962 /* msensor */,
 				D16E48F51F6C153400D7C962 /* msensorTests */,
 				D16E49001F6C153400D7C962 /* msensorUITests */,
-				D16E48DF1F6C153300D7C962 /* Products */,
-				47B312A2888AAD64F465D219 /* Pods */,
-				51393EE51B8BD40FCD2B19B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,15 +145,15 @@
 		D16E48E01F6C153300D7C962 /* msensor */ = {
 			isa = PBXGroup;
 			children = (
-				D16E49161F6C168400D7C962 /* ProtocolExtensions */,
 				D16E49111F6C166100D7C962 /* Extensions */,
-				D16E490F1F6C15C400D7C962 /* GoogleService-Info.plist */,
+				D16E49161F6C168400D7C962 /* ProtocolExtensions */,
 				D16E48E11F6C153300D7C962 /* AppDelegate.swift */,
-				D16E48E31F6C153300D7C962 /* ViewController.swift */,
-				D16E48E51F6C153400D7C962 /* Main.storyboard */,
 				D16E48E81F6C153400D7C962 /* Assets.xcassets */,
-				D16E48EA1F6C153400D7C962 /* LaunchScreen.storyboard */,
+				D16E490F1F6C15C400D7C962 /* GoogleService-Info.plist */,
 				D16E48ED1F6C153400D7C962 /* Info.plist */,
+				D16E48EA1F6C153400D7C962 /* LaunchScreen.storyboard */,
+				D16E48E51F6C153400D7C962 /* Main.storyboard */,
+				D16E48E31F6C153300D7C962 /* ViewController.swift */,
 			);
 			path = msensor;
 			sourceTree = "<group>";
@@ -161,8 +161,8 @@
 		D16E48F51F6C153400D7C962 /* msensorTests */ = {
 			isa = PBXGroup;
 			children = (
-				D16E48F61F6C153400D7C962 /* msensorTests.swift */,
 				D16E48F81F6C153400D7C962 /* Info.plist */,
+				D16E48F61F6C153400D7C962 /* msensorTests.swift */,
 			);
 			path = msensorTests;
 			sourceTree = "<group>";
@@ -170,8 +170,8 @@
 		D16E49001F6C153400D7C962 /* msensorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D16E49011F6C153400D7C962 /* msensorUITests.swift */,
 				D16E49031F6C153400D7C962 /* Info.plist */,
+				D16E49011F6C153400D7C962 /* msensorUITests.swift */,
 			);
 			path = msensorUITests;
 			sourceTree = "<group>";
@@ -524,6 +524,7 @@
 				D16E48E61F6C153400D7C962 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		D16E48EA1F6C153400D7C962 /* LaunchScreen.storyboard */ = {
@@ -532,6 +533,7 @@
 				D16E48EB1F6C153400D7C962 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
