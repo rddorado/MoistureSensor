@@ -142,9 +142,12 @@ class ViewController: UIViewController, UITextFieldDelegate, WaitViewPresentable
     }
     
     private func updateView(status: MoistureStatus) {
+        
+        print("moisture status: \(status)    current: \(currentMoistureStatus)")
         if currentMoistureStatus == status {
             return
         }
+        currentMoistureStatus = status
         DispatchQueue.main.async {
             switch status {
             case .unknown:
